@@ -1,0 +1,46 @@
+---
+title: "eds_day3_afternoon_session"
+author: "Jessica French"
+date: "2022-08-03"
+output: html_document
+---
+
+```{r}
+
+library(tidyverse)
+library(palmerpenguins)
+
+```
+
+## Lets make some vectors
+
+```{r}
+#elements of a vector have to have the same class in R. Hence the 4 in quotes
+marmots <- c("blue", "green", 4, "yellow")
+
+#Check class of object, in this case vector marmots
+class(marmots)
+```
+
+```{r}
+pika <- c(12.4, 6.8, 2.9, 8.8, 8.5)
+
+#scalar multiplier if pika
+pika_scalar <- 5.2 * pika
+pika_scalar
+```
+
+```{r}
+bananas <- c(1, 2, 3)
+apples <- c(6, 7, 8)
+
+bananas + apples
+bananas - apples 
+bananas %*% apples #gives you the dot product
+```
+
+
+
+
+
+
